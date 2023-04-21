@@ -9,6 +9,7 @@ COPY . .
 RUN mvn clean package
 
 
+
 FROM tomcat 
 MAINTAINER mayank123modi@gmail.com
 RUN mkdir  /myapp
